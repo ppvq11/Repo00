@@ -10,13 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            
             Image(systemName: "heart")
                 .imageScale(.large)
                 .foregroundColor(.red)
-            Text("Hello, world! \n I'm Muna")
+            Text("Hello, world! \n I'm Muna Alhajj")
                 .multilineTextAlignment(.center)
+
         }
         .padding()
+        
+
     }
 }
 
